@@ -1,0 +1,31 @@
+* {
+  box-sizing: 'border-box';
+  font-family: 'Roboto';
+}
+
+body {
+  margin: 0;
+}
+
+.background {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 10px;
+  height: 100vh;
+}
+
+.card-background {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  height: 40vh;
+  width: 40vw;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
